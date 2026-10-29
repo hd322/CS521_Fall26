@@ -1,0 +1,23 @@
+{
+  "groups": 50,
+  "answer_decisions": {
+    "consistent": 13,
+    "alert": 37
+  },
+  "cot_decisions": {
+    "consistent": 26,
+    "alert": 4,
+    "unknown": 20
+  },
+  "answer_plus_cot_decisions": {
+    "consistent": 9,
+    "alert": 37,
+    "unknown": 4
+  },
+  "relation_conflicts": 3,
+  "original_arithmetic_errors": 4,
+  "variant_arithmetic_errors": 13,
+  "irrelevant_number_uses": 0,
+  "monitor_runtime_seconds": 0.024524916894733906,
+  "monitor_token_cost": 0
+}

@@ -1,0 +1,24 @@
+{
+  "records": 450,
+  "unique_run_ids": 450,
+  "status_counts": {
+    "ok": 450
+  },
+  "answer_extraction_success": 449,
+  "truncated": 20,
+  "run_kind_counts": {
+    "original_initial": 50,
+    "original_repeat": 200,
+    "variant_initial": 200
+  },
+  "perturbation_counts": {
+    "null": 250,
+    "entity_rename": 50,
+    "format_change": 50,
+    "irrelevant_information": 50,
+    "paraphrase": 50
+  },
+  "input_tokens": 46022,
+  "output_tokens": 111725,
+  "latency_seconds_sum": 4805.645463037421
+}

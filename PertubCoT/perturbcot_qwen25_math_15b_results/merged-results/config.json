@@ -1,0 +1,17 @@
+{
+  "experiment_name": "perturbcot_qwen25_math_15b_pilot",
+  "model_id": "Qwen/Qwen2.5-Math-1.5B",
+  "model_path": "/home/haod6/hf_cache/hub/models--Qwen--Qwen2.5-Math-1.5B/snapshots/4a83ca6e4526a4f2da3aa259ec36c259f66b2ab2",
+  "base_seed": 202610150000,
+  "max_new_tokens": 512,
+  "do_sample": true,
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "top_k": 50,
+  "repetition_penalty": 1.0,
+  "prompt_template": "Solve the following grade-school math problem. Explain your reasoning step by step. End your response on a separate line using exactly:\nFinal answer: <answer>\n\nProblem:\n{question}\n\nSolution:\n",
+  "original_repetitions": 5,
+  "expected_originals": 50,
+  "expected_variants": 200,
+  "expected_generations": 450
+}

@@ -1,0 +1,11 @@
+test_answer_monitor_alert (__main__.MonitorTests.test_answer_monitor_alert) ... ok
+test_answer_normalization (__main__.MonitorTests.test_answer_normalization) ... ok
+test_equation_extraction_and_arithmetic (__main__.MonitorTests.test_equation_extraction_and_arithmetic) ... ok
+test_equivalent_operand_order_is_allowed (__main__.MonitorTests.test_equivalent_operand_order_is_allowed) ... ok
+test_equivalent_rounded_result_is_allowed (__main__.MonitorTests.test_equivalent_rounded_result_is_allowed) ... ok
+test_fraction_expression_is_not_truncated (__main__.MonitorTests.test_fraction_expression_is_not_truncated) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

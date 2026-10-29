@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "started_at": "2026-10-16T16:16:12.183943+00:00",
+  "experiment": {
+    "experiment_name": "perturbcot_qwen25_math_15b_pilot",
+    "model_id": "Qwen/Qwen2.5-Math-1.5B",
+    "model_path": "/home/haod6/hf_cache/hub/models--Qwen--Qwen2.5-Math-1.5B/snapshots/4a83ca6e4526a4f2da3aa259ec36c259f66b2ab2",
+    "base_seed": 202610150000,
+    "max_new_tokens": 512,
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "top_k": 50,
+    "repetition_penalty": 1.0,
+    "prompt_template": "Solve the following grade-school math problem. Explain your reasoning step by step. End your response on a separate line using exactly:\nFinal answer: <answer>\n\nProblem:\n{question}\n\nSolution:\n",
+    "original_repetitions": 5,
+    "expected_originals": 50,
+    "expected_variants": 200,
+    "expected_generations": 450
+  },
+  "inputs": {
+    "originals_sha256": "f2c0eb9187b4084e1f7e3075fb69c35fe23d1d249aa8040b6f5c132c532b0366",
+    "variants_sha256": "5f7b04eb0defe992785f621dafd78e9c43bcb28414ca6bb4c439470d55d203ce"
+  },
+  "software": {
+    "python": "3.13.11",
+    "torch": "2.6.0+cu118",
+    "transformers": "5.7.0"
+  },
+  "hardware": {
+    "cuda": "11.8",
+    "gpu": "NVIDIA A100-SXM4-80GB MIG 2g.20gb"
+  },
+  "schedule_rows": 450,
+  "selected_rows": 113,
+  "resume_completed_at_start": 68,
+  "finished_at": "2026-10-16T16:19:23.771248+00:00",
+  "summary": {
+    "status": "complete",
+    "started_at": "2026-10-16T16:16:12.183943+00:00",
+    "finished_at": "2026-10-16T16:19:23.771248+00:00",
+    "wall_seconds_this_session": 188.11766902601812,
+    "selected_rows": 113,
+    "result_rows": 113,
+    "status_counts": {
+      "ok": 113
+    },
+    "extraction_success": 113,
+    "truncated": 4,
+    "input_tokens": 11875,
+    "output_tokens": 26549
+  }
+}

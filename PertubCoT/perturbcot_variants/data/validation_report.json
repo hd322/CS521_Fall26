@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "automatic_checks": {
+    "row_count": true,
+    "unique_variant_ids": true,
+    "four_variants_per_original": true,
+    "all_types_per_original": true,
+    "balanced_types": true,
+    "original_text_exact": true,
+    "group_and_split_inherited": true,
+    "gold_inherited": true,
+    "variants_differ": true,
+    "numbers_exactly_preserved": true,
+    "paraphrase_changes_only_tail": true,
+    "entity_sources_removed_and_targets_present": true,
+    "format_preserves_sentences": true,
+    "irrelevant_append_exact": true,
+    "review_ids_known": true,
+    "review_schema_valid": true,
+    "review_matches_variant_text": true
+  },
+  "originals": 50,
+  "variants": 200,
+  "variants_by_type": {
+    "entity_rename": 50,
+    "format_change": 50,
+    "irrelevant_information": 50,
+    "paraphrase": 50
+  },
+  "split_counts": {
+    "dev": 40,
+    "test": 160
+  },
+  "codex_review_counts": {
+    "passed_automatic_and_codex_review": 200
+  },
+  "independent_human_review_counts": {
+    "pending": 200
+  },
+  "accepted_runtime_variants": 200,
+  "limitations": [
+    "Gold answers are inherited from GSM8K; variants are designed to preserve them rather than independently re-solved.",
+    "Codex review is not an independent human annotation; an independent reviewer remains pending.",
+    "Entity substitutions use common nouns for six source questions that contain no named entity."
+  ]
+}

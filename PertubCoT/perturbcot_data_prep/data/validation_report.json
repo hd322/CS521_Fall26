@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "checks": {
+    "sample_count": true,
+    "unique_original_ids": true,
+    "unique_normalized_questions": true,
+    "split_counts": true,
+    "no_group_overlap": true,
+    "split_partition": true,
+    "runtime_field_allowlist": true,
+    "paired_runtime_and_gold_ids": true,
+    "runtime_matches_originals": true,
+    "gold_matches_originals": true,
+    "questions_unchanged": true,
+    "solutions_unchanged": true,
+    "gold_extraction_valid": true,
+    "source_positions_valid": true,
+    "selection_reproduces": true
+  },
+  "source_rows": 1319,
+  "selected_originals": 50,
+  "split_counts": {
+    "dev": 10,
+    "test": 40
+  },
+  "variants_generated": 0,
+  "human_reviewed_originals": 0,
+  "limitations": [
+    "These are automated structural checks, not human verification of mathematical correctness.",
+    "GSM8K supplies no template IDs; normalized exact-duplicate grouping does not guarantee semantic-template separation.",
+    "No perturbation variants or model answers have been generated."
+  ]
+}

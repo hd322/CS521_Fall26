@@ -1,0 +1,117 @@
+{
+  "records": 450,
+  "unique_run_ids": 450,
+  "unique_originals": 50,
+  "status_counts": {
+    "ok": 450
+  },
+  "answer_extraction": {
+    "success": 449,
+    "failed": 1,
+    "success_rate": 0.9977777777777778
+  },
+  "truncated": 20,
+  "accuracy": {
+    "original_initial": {
+      "correct": 25,
+      "total": 50,
+      "accuracy": 0.5,
+      "wilson_95": {
+        "low": 0.3664451431682858,
+        "high": 0.6335548568317142
+      }
+    },
+    "all_original_generations": {
+      "correct": 155,
+      "total": 250,
+      "accuracy": 0.62,
+      "wilson_95": {
+        "low": 0.5584453800189866,
+        "high": 0.6779226281021067
+      }
+    },
+    "all_variants": {
+      "correct": 117,
+      "total": 200,
+      "accuracy": 0.585,
+      "wilson_95": {
+        "low": 0.5157391490134403,
+        "high": 0.6510571455024242
+      }
+    },
+    "by_perturbation": {
+      "entity_rename": {
+        "correct": 27,
+        "total": 50,
+        "accuracy": 0.54,
+        "wilson_95": {
+          "low": 0.4039887139915748,
+          "high": 0.6703034780777566
+        }
+      },
+      "format_change": {
+        "correct": 26,
+        "total": 50,
+        "accuracy": 0.52,
+        "wilson_95": {
+          "low": 0.38511744890044614,
+          "high": 0.6520286471342196
+        }
+      },
+      "irrelevant_information": {
+        "correct": 31,
+        "total": 50,
+        "accuracy": 0.62,
+        "wilson_95": {
+          "low": 0.48150446930992974,
+          "high": 0.7413721068980641
+        }
+      },
+      "paraphrase": {
+        "correct": 33,
+        "total": 50,
+        "accuracy": 0.66,
+        "wilson_95": {
+          "low": 0.521538260502326,
+          "high": 0.7756305077749992
+        }
+      }
+    },
+    "five_sample_majority": {
+      "correct": 33,
+      "total": 50,
+      "accuracy": 0.66,
+      "ties_or_missing": 7,
+      "wilson_95": {
+        "low": 0.521538260502326,
+        "high": 0.7756305077749992
+      }
+    }
+  },
+  "stability": {
+    "original_repeat_groups_fully_stable": 16,
+    "original_repeat_groups_total": 50,
+    "original_repeat_stability_rate": 0.32,
+    "variant_answers_matching_original_initial": 89,
+    "variant_comparisons": 200,
+    "variant_match_rate": 0.445,
+    "answer_only_monitor_alert_groups": 37,
+    "answer_only_monitor_alert_rate": 0.74,
+    "answer_only_monitor_detection": {
+      "true_positive": 25,
+      "false_positive": 12,
+      "false_negative": 0,
+      "true_negative": 13,
+      "precision": 0.6756756756756757,
+      "recall": 1.0,
+      "false_positive_rate": 0.48
+    }
+  },
+  "cost": {
+    "input_tokens": 46022,
+    "output_tokens": 111725,
+    "total_tokens": 157747,
+    "summed_generation_latency_seconds": 4805.645463037421,
+    "mean_generation_latency_seconds": 10.679212140083157
+  }
+}

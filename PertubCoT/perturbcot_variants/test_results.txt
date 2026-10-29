@@ -1,0 +1,10 @@
+test_pipeline_counts_and_runtime_label_separation (test_prepare_variants.VariantPreparationTests) ... ok
+test_pipeline_is_reproducible (test_prepare_variants.VariantPreparationTests) ... ok
+test_review_with_unknown_id_is_rejected (test_prepare_variants.VariantPreparationTests) ... ok
+test_sentence_split_does_not_break_decimals (test_prepare_variants.VariantPreparationTests) ... ok
+test_tampered_source_is_rejected (test_prepare_variants.VariantPreparationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.042s
+
+OK

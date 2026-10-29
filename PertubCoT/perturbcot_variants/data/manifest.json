@@ -1,0 +1,30 @@
+{
+  "config": {
+    "source_file": "../perturbcot_data_prep/data/offline_eval/originals.jsonl",
+    "source_sha256": "2923c09a8c9cc9c2327a93a8159fd0ac39c841aba68ef0e863fd7af8b1310428",
+    "expected_originals": 50,
+    "variants_per_original": 4,
+    "perturbation_types": [
+      "paraphrase",
+      "entity_rename",
+      "format_change",
+      "irrelevant_information"
+    ],
+    "review_file": "review_decisions.jsonl"
+  },
+  "source_path": "/Users/ddd/Documents/Codex/2026-10-15/1-cot-1-50-2-200/outputs/perturbcot_data_prep/data/offline_eval/originals.jsonl",
+  "source_sha256": "2923c09a8c9cc9c2327a93a8159fd0ac39c841aba68ef0e863fd7af8b1310428",
+  "config_sha256": "741cf8d72d4f395a3f5de3d3e8e36cf96d3ca6c12b615a1d2194827af833d615",
+  "script_sha256": "6bf520beffd596528c4de52c010fc469d3f814b4ab17af800a9bbad5bc48365a",
+  "specification_sha256": "7002d04102c1b5dfbeb1ab68cf1c312a0c0c175ffd2bebeb425d0ecdd9af89c5",
+  "review_file_sha256": "8b29679391457531c35ac377e542080b9a67fb68d93d95795f430a2723d75b5c",
+  "output_sha256": {
+    "offline_eval/paired_variants.jsonl": "874efab5c9e642d23dbbca13d968c9cfff5d6d860d6693f7236bb318ec35a05b",
+    "offline_eval/paired_variants.csv": "1a350df972eaff5c5e1102d7db1c16f23129bf64c486dffcb06375cb1643d9e3",
+    "offline_eval/review_preview.md": "bb95e65e3f80cdf36374f4f020ee862a412ca1f488ec8c8159332806bcfa4a38",
+    "runtime/variants.jsonl": "5f7b04eb0defe992785f621dafd78e9c43bcb28414ca6bb4c439470d55d203ce",
+    "runtime/dev.jsonl": "bc3442e8604043d138264f05eefa0457534dabf0afcd11731c1bd417f7a5e1c0",
+    "runtime/test.jsonl": "7a172a1a968546eaa6d905db2ae93afc336a1f8dffdbb5bbf565a22b9a607e7a",
+    "validation_report.json": "421867195c04b566463c766450a01ea7bb322c2471a40d6057f7972254f6197e"
+  }
+}

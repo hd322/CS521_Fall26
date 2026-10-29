@@ -1,0 +1,11 @@
+test_duplicate_grouping_and_split (test_prepare_dataset.DataPreparationTests) ... ok
+test_gold_uses_final_marker_not_working_numbers (test_prepare_dataset.DataPreparationTests) ... ok
+test_invalid_sizes_are_rejected (test_prepare_dataset.DataPreparationTests) ... ok
+test_malformed_gold_is_rejected (test_prepare_dataset.DataPreparationTests) ... ok
+test_pipeline_reproducible_and_runtime_has_no_labels (test_prepare_dataset.DataPreparationTests) ... ok
+test_source_tampering_is_rejected (test_prepare_dataset.DataPreparationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.034s
+
+OK

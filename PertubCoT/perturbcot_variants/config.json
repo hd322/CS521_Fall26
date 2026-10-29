@@ -1,0 +1,13 @@
+{
+  "source_file": "../perturbcot_data_prep/data/offline_eval/originals.jsonl",
+  "source_sha256": "2923c09a8c9cc9c2327a93a8159fd0ac39c841aba68ef0e863fd7af8b1310428",
+  "expected_originals": 50,
+  "variants_per_original": 4,
+  "perturbation_types": [
+    "paraphrase",
+    "entity_rename",
+    "format_change",
+    "irrelevant_information"
+  ],
+  "review_file": "review_decisions.jsonl"
+}

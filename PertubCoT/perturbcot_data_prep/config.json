@@ -1,0 +1,15 @@
+{
+  "dataset": "gsm8k",
+  "upstream_split": "test",
+  "source_revision": "3101c7d5072418e28b9008a6636bde82a006892c",
+  "source_url": "https://raw.githubusercontent.com/openai/grade-school-math/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl",
+  "source_file": "source/gsm8k_test.jsonl",
+  "source_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+  "expected_source_rows": 1319,
+  "seed": 20261015,
+  "sample_size": 50,
+  "dev_size": 10,
+  "selection_algorithm": "sha256_rank_v1",
+  "grouping": "normalized_question_sha256",
+  "perturbation_types": ["paraphrase", "entity_rename", "format_change", "irrelevant_information"]
+}

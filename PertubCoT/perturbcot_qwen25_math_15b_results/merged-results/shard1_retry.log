@@ -1,0 +1,22 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|                                                                                                                                                                                    | 0/338 [00:00<?, ?it/s]Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 338/338 [00:00<00:00, 8124.68it/s]
+progress 69/113 latest=gsm8k_test_0336__paraphrase__r0 status=ok
+progress 78/113 latest=gsm8k_test_0340__paraphrase__r0 status=ok
+progress 88/113 latest=gsm8k_test_0347__original__r0 status=ok
+progress 98/113 latest=gsm8k_test_0470__original__r1 status=ok
+progress 108/113 latest=gsm8k_test_0478__original__r2 status=ok
+{
+  "status": "complete",
+  "started_at": "2026-10-16T16:16:12.183943+00:00",
+  "finished_at": "2026-10-16T16:19:23.771248+00:00",
+  "wall_seconds_this_session": 188.11766902601812,
+  "selected_rows": 113,
+  "result_rows": 113,
+  "status_counts": {
+    "ok": 113
+  },
+  "extraction_success": 113,
+  "truncated": 4,
+  "input_tokens": 11875,
+  "output_tokens": 26549
+}

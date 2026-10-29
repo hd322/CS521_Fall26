@@ -1,0 +1,28 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|                                                                                                                                                                                    | 0/338 [00:00<?, ?it/s]Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 338/338 [00:00<00:00, 7613.07it/s]
+progress 11/112 latest=gsm8k_test_0979__format_change__r0 status=ok
+progress 20/112 latest=gsm8k_test_1017__format_change__r0 status=ok
+progress 30/112 latest=gsm8k_test_1056__irrelevant_information__r0 status=ok
+progress 40/112 latest=gsm8k_test_1059__paraphrase__r0 status=ok
+progress 50/112 latest=gsm8k_test_1106__original__r0 status=ok
+progress 60/112 latest=gsm8k_test_1158__original__r1 status=ok
+progress 70/112 latest=gsm8k_test_1182__original__r2 status=ok
+progress 80/112 latest=gsm8k_test_1233__original__r3 status=ok
+progress 90/112 latest=gsm8k_test_1249__original__r4 status=ok
+progress 100/112 latest=gsm8k_test_1272__entity_rename__r0 status=ok
+progress 110/112 latest=gsm8k_test_1286__format_change__r0 status=ok
+{
+  "status": "complete",
+  "started_at": "2026-10-16T04:26:59.665241+00:00",
+  "finished_at": "2026-10-16T04:45:34.952678+00:00",
+  "wall_seconds_this_session": 1110.9953387679998,
+  "selected_rows": 112,
+  "result_rows": 112,
+  "status_counts": {
+    "ok": 112
+  },
+  "extraction_success": 112,
+  "truncated": 10,
+  "input_tokens": 11205,
+  "output_tokens": 30588
+}
